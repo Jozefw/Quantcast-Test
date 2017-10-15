@@ -1,0 +1,87 @@
+body{
+
+	font-family: 'Montserrat', sans-serif;
+	background-color:#F8F8F9; 
+}
+
+.creatives {
+	border: 2px solid #e5e5e5;
+	min-height: 800px;
+	background-color: #fff;
+	margin: 35px;
+	padding-left: 0px;
+    padding-right: 0px;
+}
+.header{
+	border-bottom: 1px solid #e5e5e5;
+    font-weight: 200;
+    font-size: 24px;
+    padding: 25px 20px 25px 25px;
+    margin-top: 0px;
+}
+.item_counter{
+	display: inline-block;
+    border: 1px solid #e5e5e5;
+    border-radius: 16px;
+    padding: 2px 12px;
+    font-size: 12px;
+    position: relative;
+    top: -4px;
+    left: 10px;
+    color: #666;
+}
+
+i.fa.fa-cloud-upload {
+    color: #797F86;
+    position: relative;
+    /*left: 86%;*/
+    font-size: 17px;
+    top: -58px;
+}
+
+span.upload_text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    padding-left: 25px;
+    color: #797F86;
+    font-weight: bold;
+    padding-right: 20px;
+}
+
+i.fa.fa-plus{
+	color: #797F86;
+    position: relative;
+   /* left: 86%;*/
+    font-size: 17px;
+    top: -58px;
+}
+span.add_text {
+	font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    padding-left: 5px;
+    color: #797F86;
+    font-weight: bold;
+}
+h1.select_all {
+    font-size: 12px;
+    font-weight: 400;
+    padding-left: 45px;
+    margin-top: 0px!important;
+    color: #797F86;
+}
+
+
+.inner{
+	border: 2px solid #e5e5e5;
+}
+
+.icons_upload{
+	position: relative;
+}
+
+.box_wrapper {
+	padding-right: 0px;
+}
+
+
+
