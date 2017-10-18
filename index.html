@@ -22,56 +22,256 @@
                 <h1 class="header">CREATIVES
 					<div class="item_counter">5</div>
 				</h1>
-              
-                    <i class="fa fa-cloud-upload pull-right" aria-hidden="true"><span class="upload_text">upload</span></i>
-                    <i class="fa fa-plus pull-right" aria-hidden="true"><span class="add_text">add</span></i>
-               
+                <i class="fa fa-cloud-upload pull-right" aria-hidden="true"><span class="upload_text">upload</span></i>
+                <i class="fa fa-plus pull-right" aria-hidden="true"><span class="add_text">add</span></i>
             </div>
         </div>
         <div class="row">
             <h1 class="select_all">Select All</h1>
         </div>
         <div class="row">
-                <div class="col-md-12">
-                    <div class='col-md-3 box_wrapper box_one'>
-                        <div class="inner">
-                            <h1 class="selector">Title</h1>
-                            <p class="info">info</p>
+            <div class="col-md-12 box_wrapper">
+                <div class='col-md-3 box_wrapper box_one'>
+                    <div class="inner">
+                        <div class="square"></div>
+                        <h4 class="selector hide_after_5">Creative Loading...
+                        <h4 class="selector doubleclick_text toggle_after_5 hidden">DOUBLECLICK - 120x600</h4>
+                        <i class="fa fa-trash-o" aria-hidden="true"></i>
+                        </h4>
+                        <div class="spinner" id="spinner_insert">
+                            <img src="images/man.png" class="toggle_after_5 hidden">
+                            <div class="round_circle toggle_after_5 hidden">
+                                <i class="fa fa-pencil" aria-hidden="true"></i>
+                            </div>
                         </div>
+                        <div class="input_area">
+                            <label class="creative_number" for="">DoubleClick Creative ID</label>
+                            <p class="creative_id_number">123456</p>
+                            <p id="creative_id"></p>
+                            <label class="creative_name" for="creative_name">Creative Name</label>
+                            <br>
+                            <input type="text" name="" id="creative_name" value="" placeholder="Groomshop 120x600">
+                            <br>
+                            <label class="language" for="language">Language</label>
+                            <br>
+                            <input class="final_dropdown" list="language" name="myBrowser" placeholder="English" />
+                        </div>
+                        <div class="impression_tracker_wrapper">Add Impression Tracker</div>
+                        <datalist id="language">
+                            <option value="English">
+                                <option value="Other">
                     </div>
-                    <div class='col-md-3 box_wrapper box_two'>
-                        <div class="inner">
-                            <h1 class="selector">Title</h1>
-                            <p class="info">info</p>
+                </div>
+                <div class='col-md-3 box_wrapper box_two'>
+                    <div class="inner">
+                        <div class="square"></div>
+                        <h4 class="selector hide_after_5">Creative Loading...
+                        <h4 class="selector doubleclick_text toggle_after_5 hidden">DOUBLECLICK - 120x600</h4>
+                        <i class="fa fa-trash-o" aria-hidden="true"></i>
+                        </h4>
+                        <div class="spinner" id="spinner_insert1">
+                            <div class="col-md-6 border_right">
+                                <img src="images/man.png" class="toggle_after_5 hidden">
+                            </div>
+                            <div class="col-md-6">
+                                <img src="images/man.png" class="toggle_after_5 hidden">
+                                <div class="round_circle toggle_after_5 hidden">
+                                    <i class="fa fa-pencil" aria-hidden="true"></i>
+                                </div>
+                            </div>
                         </div>
+                        <div class="input_area">
+                            <label class="creative_number" for="">DoubleClick Creative ID</label>
+                            <p class="creative_id_number">123456</p>
+                            <p id="creative_id"></p>
+                            <label class="creative_name" for="creative_name">Creative Name</label>
+                            <br>
+                            <input type="text" name="" id="creative_name" value="" placeholder="Groomshop 120x600">
+                            <br>
+                            <!-- <input type="text" name="" id="language" placeholder="English" value="">
+                        <input list="language" name="Languages_choice" /> -->
+                            <label class="language" for="language">Language</label>
+                            <br>
+                            <input class="final_dropdown" list="language" name="myBrowser" placeholder="English" />
+                        </div>
+                        <div class="impression_tracker_wrapper">Add Impression Tracker</div>
+                        <datalist id="language">
+                            <option value="English">
+                                <option value="Other">
                     </div>
-                    <div class='col-md-3 box_wrapper box_three'>
-                        <div class="inner">
-                            <h1 class="selector">Title</h1>
-                            <p class="info">info</p>
+                </div>
+                <div class='col-md-3 box_wrapper box_three'>
+                    <div class="inner">
+                        <div class="square"></div>
+                        <h4 class="selector hide_after_5">Creative Loading...
+                        <h4 class="selector doubleclick_text toggle_after_5 hidden">DOUBLECLICK - 120x600</h4>
+                        <i class="fa fa-trash-o" aria-hidden="true"></i>
+                        </h4>
+                        <div class="spinner" id="spinner_insert2">
+                            <div class="col-md-6 border_right gradient_box">
+                                <img src="images/man.png" class="toggle_after_5 hidden">
+                            </div>
+                            <div class="col-md-6 gradient_box">
+                                <img src="images/man.png" class="toggle_after_5 hidden">
+                                <div class="round_circle toggle_after_5 hidden">
+                                    <i class="fa fa-pencil" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                                <h4 class="image_text image_text_wrapper toggle_after_5 hidden">3 Sets - View All</h4>
+                                <i class="fa fa-angle-right toggle_after_5 hidden" aria-hidden="true"></i>
                         </div>
+                        <div class="input_area">
+                            <label class="creative_number" for="">DoubleClick Creative ID</label>
+                            <p class="creative_id_number">123456</p>
+                            <p id="creative_id"></p>
+                            <label class="creative_name" for="creative_name">Creative Name</label>
+                            <br>
+                            <input type="text" name="" id="creative_name" value="" placeholder="Groomshop 120x600">
+                            <br>
+                           
+                            <label class="language" for="language">Language</label>
+                            <br>
+                            <input class="final_dropdown" list="language" name="myBrowser" placeholder="English" />
+                        </div>
+                        <div class="impression_tracker_wrapper">Add Impression Tracker</div>
+                        <datalist id="language">
+                            <option value="English">
+                                <option value="Other">
                     </div>
-                    <div class='col-md-3 box_wrapper box_four'>
-                        <div class="inner">
-                            <h1 class="selector">Title</h1>
-                            <p class="info">info</p>
+                </div>
+                <div class='col-md-3 box_wrapper box_four'>
+                    <div class="inner">
+                        <div class="square"></div>
+                        <h4 class="selector hide_after_5">Creative Loading...
+                        <h4 class="selector doubleclick_text toggle_after_5 hidden">DOUBLECLICK - 120x600</h4>
+                        <i class="fa fa-trash-o" aria-hidden="true"></i>
+                        </h4>
+                        <div class="spinner" id="spinner_insert3">
+                            <div class="col-md-6 border_right gradient_box">
+                                <img src="images/man.png" class="toggle_after_5 hidden">
+                            </div>
+                            <div class="col-md-6 gradient_box">
+                                <img src="images/man.png" class="toggle_after_5 hidden">
+                                <div class="round_circle toggle_after_5 hidden">
+                                    <i class="fa fa-pencil" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                            <h4 class="image_text image_text_wrapper toggle_after_5 hidden">3 Sets - View All</h4>
+                            <i class="fa fa-angle-right toggle_after_5 hidden" aria-hidden="true"></i>
                         </div>
+                        <div class="input_area">
+                            <label class="creative_number" for="">DoubleClick Creative ID</label>
+                            <p class="creative_id_number">123456</p>
+                            <p id="creative_id"></p>
+                            <label class="creative_name" for="creative_name">Creative Name</label>
+                            <br>
+                            <input type="text" name="" id="creative_name" value="" placeholder="Groomshop 120x600">
+                            <br>
+                            
+                            <label class="language" for="language">Language</label>
+                            <br>
+                            <input class="final_dropdown" list="language" name="myBrowser" placeholder="English" />
+                        </div>
+                        <div class="impression_tracker_wrapper">Add Impression Tracker</div>
+                        <datalist id="language">
+                            <option value="English">
+                                <option value="Other">
                     </div>
                 </div>
             </div>
+        </div>
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-12 box_wrapper">
                     <div class='col-md-3 box_wrapper box_five'>
                         <div class="inner">
-                            <h1 class="selector">Title</h1>
-                            <p class="info">info</p>
+                            <div class="square"></div>
+                            <h4 class="selector hide_after_5">Creative Loading...
+                        <h4 class="selector doubleclick_text toggle_after_5 hidden">DOUBLECLICK - 120x600</h4>
+                            <i class="fa fa-trash-o" aria-hidden="true"></i>
+                            </h4>
+                            <div class="spinner" id="spinner_insert4">
+                                <div class="col-md-6 border_right gradient_box">
+                                    <img src="images/man.png" class="toggle_after_5 hidden">
+                                </div>
+                                <div class="col-md-6 gradient_box">
+                                    <img src="images/man.png" class="toggle_after_5 hidden">
+                                    <div class="round_circle toggle_after_5 hidden">
+                                        <i class="fa fa-pencil" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                                <h4 class="image_text image_text_wrapper toggle_after_5 hidden">3 Sets - View All</h4>
+                                <i class="fa fa-angle-right toggle_after_5 hidden" aria-hidden="true"></i>
+                            </div>
+                            <div class="input_area">
+                                <label class="creative_number" for="">DoubleClick Creative ID</label>
+                                <p class="creative_id_number">123456</p>
+                                <p id="creative_id"></p>
+                                <label class="creative_name" for="creative_name">Creative Name</label>
+                                <br>
+                                <input type="text" name="" id="creative_name" value="" placeholder="Groomshop 120x600">
+                                <br>
+                                
+                                <label class="language" for="language">Language</label>
+                                <br>
+                                <input class="final_dropdown" list="language" name="myBrowser" placeholder="English" />
+                            </div>
+                            <div class="impression_tracker_wrapper">Add Impression Tracker</div>
+                            <datalist id="language">
+                                <option value="English">
+                                    <option value="Other">
                         </div>
                     </div>
                 </div>
             </div>
-    </div>
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-    <script src="js/bootstrap.min.js"></script>
+            <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+            <script src="js/bootstrap.min.js"></script>
+            <script src="js/Spin.js"></script>
+            <script>
+            var opts = {
+                lines: 13, // The number of lines to draw
+                length: 4, // The length of each line
+                width: 2, // The line thickness
+                radius: 5, // The radius of the inner circle
+                scale: 1.5,
+                corners: 1, // Corner roundness (0..1)
+                rotate: 58, // The rotation offset
+                direction: 1, // 1: clockwise, -1: counterclockwise
+                color: '#666', // #rgb or #rrggbb or array of colors
+                speed: 0.9, // Rounds per second
+                trail: 100, // Afterglow percentage
+                shadow: false, // Whether to render a shadow
+                hwaccel: false, // Whether to use hardware acceleration
+                className: 'spinner', // The CSS class to assign to the spinner
+                zIndex: 2e9, // The z-index (defaults to 2000000000)
+                top: '32%', // Top position relative to parent
+                left: '50%' // Left position relative to parent
+            };
+            var target = document.getElementById('spinner_insert');
+            var target1 = document.getElementById('spinner_insert1');
+            var target2 = document.getElementById('spinner_insert2');
+            var target3 = document.getElementById('spinner_insert3');
+            var target4 = document.getElementById('spinner_insert4');
+            $(document).ready(function() {
+                var spinner;
+                target = new Spinner(opts).spin(target);
+                target1 = new Spinner(opts).spin(target1);
+                target2 = new Spinner(opts).spin(target2);
+                target3 = new Spinner(opts).spin(target3);
+                target4 = new Spinner(opts).spin(target4);
+                setTimeout(function() {
+                    target.stop(target);
+                    target1.stop(target1);
+                    target2.stop(target2);
+                    target3.stop(target3);
+                    target4.stop(target4);
+                    $('.hide_after_5').addClass('hidden');
+                    $('.toggle_after_5').fadeIn('slow').removeClass('hidden');
+                    $('.fa.fa-trash-o').css({ "padding-left": "65px", "position": "relative", "top": "-14px" })
+                    $('h4.selector.doubleclick_text.toggle_after_5').css({ "font-size": "12px", "font-weight": "500", "color": "#BCBFC3","display":"inline-block" });
+                    $('.spinner').css({ "height": "160px" });
+                }, 5000)
+            });
+            </script>
 </body>
 
 </html>

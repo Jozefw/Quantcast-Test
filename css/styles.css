@@ -1,5 +1,4 @@
 body{
-
 	font-family: 'Montserrat', sans-serif;
 	background-color:#F8F8F9; 
 }
@@ -62,26 +61,129 @@ span.add_text {
     color: #797F86;
     font-weight: bold;
 }
-h1.select_all {
-    font-size: 12px;
-    font-weight: 400;
+.select_all {
+    font-size: 14px;
+    font-weight: 500;
     padding-left: 45px;
     margin-top: 0px!important;
     color: #797F86;
+    margin-bottom: 0px;
 }
 
 
 .inner{
 	border: 2px solid #e5e5e5;
+	box-shadow: 1px 0px 1px 0 rgba(0, 0, 0, 0.1);
 }
 
 .icons_upload{
 	position: relative;
 }
 
-.box_wrapper {
-	padding-right: 0px;
+.selector {
+   	display: inline-block;
+    margin-bottom: 0px;
+    position: relative;
+    top: -15px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #666
 }
 
+.square{
+	display: inline-block;
+    width: 12px;
+    border: 1px solid #999;
+    height: 12px;
+    margin: 15px;
+}
 
+.fa.fa-trash-o {
+    padding-left: 85px;
+    font-size: 17px;
+    color: #999;
+    position: relative;
+    top: -12px;
+}
 
+.spinner{
+	background-color:#F8F8F9; 
+	height: 200px;
+	text-align: center;
+}
+.round_circle{
+	border-radius: 15px;
+    background-color: #DBDBDC;
+    position: absolute;
+    display: inline-block;
+    padding: 6px 9px;
+    color: #fff;
+    top: 80px;
+    left: 280px;
+}
+#spinner_insert1 .round_circle,#spinner_insert2 .round_circle,#spinner_insert3 .round_circle,#spinner_insert4 .round_circle{
+	top:10px;
+	left:112px;
+}
+.image_text {
+    font-size: 12px;
+    color: #fff;
+    z-index: 100;
+    position: absolute;
+    top: 192px;
+    display: inline-block;
+    left: 128px;
+}
+.image_text_wrapper {
+   
+}
+i.fa.fa-angle-right {
+    color: #fff;
+    font-size: 20px;
+    position: relative;
+    font-weight: bold;
+    top: -29px;
+    left: 130px;
+}
+label{
+	color: #BCBFC3;
+}
+input{
+	width: 100%;
+    padding: 8px;
+    border: 2px solid #e5e7e9;
+    margin-bottom: 8px;
+}
+.creative_number{
+	color: #BCBFC3;
+}
+.creative_id_number{
+	color: #000;
+}
+.input_area {
+    padding: 18px;
+    font-size: 12px;
+    font-weight: bold;
+}
+input.final_dropdown {
+    margin-bottom: 0px;
+}
+.impression_tracker_wrapper{
+	color: #2DB0D8;
+    padding: 12px 20px;
+    border-top: 2px solid #e7e8e9;
+    font-size: 13px;
+    font-weight: bold;
+}
+.border_right{
+	border-right: 1px solid #fff;
+}
+.box_wrapper {
+    padding-top: 20px;
+}
+.gradient_box{
+	    background: linear-gradient(#f4f4f4 75%,#c6c6c6 100%);
+}
+input::-webkit-calendar-picker-indicator {
+              opacity: 100;
+ }
